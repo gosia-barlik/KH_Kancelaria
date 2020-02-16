@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-    color: #1b6305;
+    color: #1B5E20;
 }
 
 .parallax-container {
@@ -78,11 +78,35 @@ footer.page-footer {
     margin-bottom: 50px;
 }
 
-#paragraph {
+.paragraph {
     font-family: "Times New Roman";
+
 }
 
 #localization, #phone, #mail {
     width: 50px;
     height: 50px;
+}
+
+#phone-small {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+
+a {
+    color: rgba(0, 0, 0, .85);
+}
+
+.justify {
+    text-align: justify;
+}
+.btn {
+    background-color: #1B5E20 !important;;
+
+}
+i.material-icons, i.material-icons:focus {
+    color: #1B5E20;
 }

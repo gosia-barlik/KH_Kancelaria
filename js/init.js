@@ -1,9 +1,10 @@
-(function($){
-  $(function(){
+(function ($) {
+    $(function () {
 
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
-    $('.scrollspy').scrollSpy({scrollOffset:200,throttle:100});
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
+        $('.scrollspy').scrollSpy({scrollOffset: 100});
 
-  }); // end of document ready
+
+    }); // end of document ready
 })(jQuery); // end of jQuery name space
