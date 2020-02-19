@@ -9,10 +9,23 @@
 nav ul a,
 nav .brand-logo {
     color: #444;
+    display: flex;
+    font-size: 12px;
 }
 
 p {
     line-height: 2rem;
+}
+
+nav .brand-logo p {
+    line-height: 0.5rem;
+}
+
+.logo-container {
+    display: block;
+    top: 1rem;
+    position: relative;
+
 }
 
 .sidenav-trigger {
@@ -64,7 +77,7 @@ footer.page-footer {
 }
 
 .logo-img {
-    width: 90px;
+    width: 60px;
     height: 60px;
 }
 
@@ -80,7 +93,32 @@ footer.page-footer {
 
 .paragraph {
     font-family: "Times New Roman";
+    background: linear-gradient(to right, #bf953f, #e3c27c, #b47328, #e3c27c, #aa771c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 8vw;
+    margin: 0;
+    font-weight: 400;
+}
 
+.paragraph:after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: -1px 0 1px #c6bb9f,
+    0 1px 1px #c6bb9f,
+    5px 5px 10px rgba(99, 69, 48, 0.31),
+    -5px -5px 10px rgba(99, 69, 48, 0.31);
+}
+
+.gradient {
+    background: linear-gradient(to top, #bf953f, #e3c27c, #b47328, #e3c27c, #aa771c);
 }
 
 #localization, #phone, #mail {
@@ -93,7 +131,7 @@ footer.page-footer {
     height: 20px;
     margin-right: 5px;
     position: relative;
-    top: 5px;
+    top: 20px;
 }
 
 a {
@@ -103,10 +141,15 @@ a {
 .justify {
     text-align: justify;
 }
-.btn {
-    background-color: #1B5E20 !important;;
 
-}
 i.material-icons, i.material-icons:focus {
-    color: #1B5E20;
+    color: #ffff;
+}
+
+#parallax2, #parallax3, #parallax2, #parallax4 {
+    width: 100%;
+}
+
+#message, #hamburger {
+    color: #E3C27C;
 }
