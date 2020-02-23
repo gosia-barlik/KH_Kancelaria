@@ -102,6 +102,21 @@ footer.page-footer {
     font-size: 8vw;
     margin: 0;
     font-weight: 400;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.22)
+}
+
+.paragraph2 {
+    background: linear-gradient(to right, #bf953f, #e3c27c, #b47328, #e3c27c, #aa771c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.22)
+}
+
+.paragraph3 {
+    background: linear-gradient(to right, #bf953f, #e3c27c, #b47328, #e3c27c, #aa771c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .paragraph:after {
@@ -119,6 +134,10 @@ footer.page-footer {
 
 .gradient {
     background: linear-gradient(to top, #bf953f, #e3c27c, #b47328, #e3c27c, #aa771c);
+}
+
+.gradient2 {
+    background: linear-gradient(to top, #b75423, #e3c27c, #e3c27c);
 }
 
 #localization, #phone, #mail {
@@ -153,3 +172,12 @@ i.material-icons, i.material-icons:focus {
 #message, #hamburger {
     color: #E3C27C;
 }
+
+#footer {
+    background-color: rgba(0,0,0,0.8)
+}
+
+/*#map {*/
+    /*height: 400px;*/
+    /*width: 100%;*/
+/*}*/

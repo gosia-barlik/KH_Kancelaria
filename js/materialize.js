@@ -12335,3 +12335,11 @@ $jscomp.polyfill = function (e, r, p, m) {
 
   Range.init($('input[type=range]'));
 })(cash, M.anime);
+
+
+// function initMap() {
+//     var kancelaria = {lat: 52.144462, lng: 21.058624};
+//     var map = new google.maps.Map(
+//         document.getElementById('map'), {zoom: 6 center: kancelaria});
+//     var marker = new google.maps.Marker({position: kancelaria, map: map});
+// }

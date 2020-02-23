@@ -2944,7 +2944,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: rgba(0,0,0,0.4);
 }
 
 .page-footer .footer-copyright {
@@ -6215,9 +6215,9 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #1B5E20;
-  -webkit-box-shadow: 0 1px 0 0 #1B5E20;
-          box-shadow: 0 1px 0 0 #1B5E20;
+  border-bottom: 1px solid #474545;
+  -webkit-box-shadow: 0 1px 0 0 #474545;
+          box-shadow: 0 1px 0 0 #474545;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -6233,7 +6233,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #1B5E20;
+  color: #474545;
 }
 
 input:not([type]):focus.valid ~ label,
@@ -7738,7 +7738,7 @@ input[type=range]::-ms-thumb {
   opacity: 0;
   height: 120vh;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 997;
+  z-index: 1;
   display: none;
 }
 
